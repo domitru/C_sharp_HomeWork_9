@@ -7,15 +7,15 @@
 // M = 4; N = 8. -> 30
 
 Console.Clear();
-Console.Write("Введите число M: ");
+Console.Write("Введите число m: ");
 int m = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Введите число N: ");
+Console.Write("Введите число n: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-SumFromMToN(m, n);
+SumFromMtoN(m, n);
                               
-void SumFromMToN(int m, int n)             // вызов функции "сумма чисел от M до N"
+void SumFromMtoN(int m, int n)             // вызов функции "сумма чисел от M до N"
 {
     Console.Write(SumMN(m - 1, n));
 }
